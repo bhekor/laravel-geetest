@@ -324,7 +324,7 @@ Pull Requests are really welcomed.
 
 ## Author
 
-[Bhekor](http://bhekor.com.ng) , from Nigeria
+[Ibidapo Adeolu (Bhekor)](http://bhekor.com.ng) , from Nigeria
 
 ## License
 
