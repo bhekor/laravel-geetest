@@ -42,7 +42,7 @@
             "Bhekor\\LaravelGeetest\\GeetestServiceProvider"
         ],
         "aliases": {
-            "Geetest": "Bhekor\\LaravelGeetest\\Facades\\Geetest"
+            "Geetest": "Bhekor\\LaravelGeetest\\Geetest"
         }
     }
   },
