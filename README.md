@@ -5,46 +5,46 @@
 [![Support](https://img.shields.io/badge/support-laravel-orange.svg)](https://laravel.com/)
 [![Release](https://img.shields.io/badge/release-3.0.0-orange.svg)](https://github.com/bhekor/LaravelGeetest/releases)
 
-Laravel Geetest is a package for Laravel 5 developed by [Germey](http://cuiqingcai.com). It provides simple usage for laravel of [Geetest](http://www.geetest.com/). 
+A Laravel package for Geetest platform developed by [Bhekor](http://bhekor.com.ng). It provides simple usage for laravel of [Geetest](http://www.geetest.com/). 
 
 Geetest Demo: [Geetest](https://www.geetest.com/show)
 
 ## Installation
 
-Laravel 5.0 or later is required.
+Laravel 7 or later is required.
 
 This Package now supports Geetest 3.0. 
-
-For Geetest 2.0, please see [LaravelGeetest 2.0](https://github.com/Germey/LaravelGeetest/tree/v2.0.3)
 
 To get the latest version of Laravel Geetest, simply require the project using Composer:
 
 ```
-$ composer require germey/geetest
+$ composer require bhekor/laravel-geetest
 ```
 
 Or you can add following to `require` key in `composer.json`:
 
 ```json
-"germey/geetest": "~3.0"
+"bhekor/laravel-geetest": "~1.0.0"
 ```
 
 then run:
 
 ```
-$ composer update
+composer update
 ```
+
+You don't have to go through these next steps, but incase.
 
 Next, You should need to register the service provider. Open up `config/app.php` and add following into the `providers` key:
 
 ```php
-Germey\Geetest\GeetestServiceProvider::class
+Bhekor\LaravelGeetest\GeetestServiceProvider::class
 ```
 
 And you can register the Geetest Facade in the `aliases` of `config/app.php` :
 
 ```php
-'Geetest' => Germey\Geetest\Geetest::class
+'Geetest' => Bhekor\LaravelGeetest\Geetest::class
 ```
 
 ## Configuration
@@ -227,7 +227,7 @@ For example, If you add this route:
 Route::get('auth/geetest','Auth\AuthController@getGeetest');
 ```
 
-you need to add  `Germey\Geetest\GeetestCaptcha` in your `AuthController`:
+you need to add  `Bhekor\LaravelGeetest\GeetestCaptcha` in your `AuthController`:
 
 ```php
 use Germey\Geetest\GeetestCaptcha;
@@ -324,11 +324,11 @@ Pull Requests are really welcomed.
 
 ## Author
 
-[Germey](http://cuiqingcai.com) , from Beijing China
+[Bhekor](http://bhekor.com.ng) , from Nigeria
 
 ## License
 
-Laravel Geetest is licensed under [The MIT License (MIT)](https://github.com/Germey/LaravelGeetest/blob/master/LICENSE).
+Laravel Geetest is licensed under [The MIT License (MIT)](https://github.com/bhekor/LaravelGeetest/blob/master/LICENSE).
 
 
 
