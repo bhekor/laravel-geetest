@@ -44,9 +44,6 @@
         "aliases": {
             "Geetest": "Bhekor\\LaravelGeetest\\Facades\\Geetest"
         }
-    },
-    "branch-alias": {
-        "dev-master": "0.0.1-stable"
     }
   },
   "minimum-stability": "stable",
